@@ -1,0 +1,25 @@
+{
+    "name": "zeek/laravel-helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Holbrook",
+            "email": "aaron@zeek.com"
+        },
+		{
+			"name": "Zeek Interactive",
+			"email": "info@zeek.com",
+			"homepage": "https://zeek.com"
+		}
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zeek\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": ">=6"
+    }
+}
