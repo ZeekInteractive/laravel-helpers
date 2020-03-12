@@ -14,9 +14,9 @@
 		}
     ],
     "autoload": {
-        "psr-4": {
-            "Zeek\\": "src/"
-        }
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "require": {
         "php": ">=7.1",
